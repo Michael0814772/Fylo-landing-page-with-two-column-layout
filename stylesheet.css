@@ -1,0 +1,386 @@
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'open sans';
+    font-weight: bolder;
+}
+
+.container-fluid {
+    margin-top: 20px;
+}
+
+.container-fluid a img {
+    margin-left: 5px;
+}
+
+.nav-pricing {
+    margin-right: 90px;
+}
+
+#text-color {
+    color: black;
+    font-weight: bolder;
+}
+
+/* Section one */
+
+.section-one-form {
+    margin-top: 90px;
+}
+
+.section-one-form h1, p, input {
+    color: hsl(243, 87%, 12%);
+    margin-left: 100px;
+}
+
+.section-one-form h1 {
+    width: 70%;
+    font-size: 35px;
+    font-family: 'Raleway';
+    font-weight: 700;
+}
+
+.section-one-form p {
+    width: 70%;
+    font-size: 17px;
+}
+
+.section-one-form input {
+    height: 2.3rem;
+    border-radius: 8px;
+}
+
+.section-one-form button {
+    margin-bottom: 5px;
+}
+
+.section-one img {
+    height: 400px;
+}
+
+
+
+/* Section- Two*/
+
+
+.section-two {
+    margin-bottom: 20px;
+}
+
+.section-two-first-row {
+    margin-top: 200px;
+}
+
+.section-two h1 {
+    width: 70%;
+    font-size: 33px;
+    font-family: 'Raleway';
+    font-weight: 700;
+}
+
+.section-two h1, a, .card {
+    color: hsl(243, 87%, 12%);
+    margin-left: 100px;
+}
+
+.section-two p {
+    width: 70%;
+    font-size: 15px;
+}
+
+.section-two a {
+    text-decoration: none;
+}
+
+.section-two a:hover {
+    color: rgb(6, 99, 6);
+    text-decoration: underline;
+}
+
+.section-two .card {
+    margin-top: 15px;
+}
+
+.section-two .card i {
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.section-two .card-text {
+    margin-left: 10px;
+    margin-right: 20px;
+    width: 97%;
+    font-size: 14px;
+}
+
+.section-two .testimonial-pic {
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+.section-two .avatar-testimonial p {
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.section-two .avatar-testimonial p {
+    font-size: 10px;
+    font-weight: 800;
+    color: hsl(243, 87%, 12%);
+}
+
+.section-two .avatar-testimonial span{
+    font-size: 14px;
+    font-weight: bolder;
+}
+
+.section-two-second-row {
+    margin-top: 120px;
+}
+
+/* Section Three */
+
+.section-three {
+    background-color: hsl(238, 22%, 44%);
+    margin-top: 150px;
+    color: white;
+}
+
+.section-three .section-three-first-row h1 {
+    margin-left: 100px;
+    margin-top: 100px;
+    font-size: 35px;
+    font-family: 'Raleway';
+    font-weight: 700;
+}
+
+.section-three .section-three-first-row .small {
+    margin-left: 100px;
+    width: 67%;
+    font-size: 18px;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    margin-bottom: 80px;
+}
+
+.section-three .section-three-second-row .form {
+    margin-top: 100px;
+}
+
+.section-three .section-three-second-row .form input {
+    width: 50%;
+    border: hsl(238, 22%, 44%);
+}
+
+.section-three .section-three-second-row .form button {
+    margin-left: 100px;
+    margin-top: 25px;
+    border-radius: 5px;
+    margin-bottom: 80px;
+}
+
+.section-three .section-three-second-row .form button:hover {
+    background-color: hsl(224, 93%, 58%);
+}
+
+
+
+/* Footer Section */
+
+.footer-section {
+    background-color: hsl(243, 87%, 12%);
+    color: white;
+    margin-top: 0;
+}
+
+.footer-margin {
+    margin-left: 100px;
+}
+
+.footer-header img {
+    color: white;
+    margin-top: 50px;
+}
+
+.footer-section .footer-row-one {
+    padding: 0;
+    margin-left: -90px;
+    margin-top: 20px;
+}
+
+.footer-section .footer-mobile small {
+    margin-left: 7px;
+    font-size: 13px;
+    color: white;
+    text-decoration: none;
+}
+
+.footer-section .footer-details .footer-email {
+    margin-top: 15px;
+}
+
+.footer-section .footer-details .footer-row-one a:hover {
+    text-decoration: none;
+}
+
+.footer-section .footer-row-two { 
+    margin-top: 0;  
+}
+
+.footer-section .footer-details .footer-row-two {
+    margin-left: 50px;
+}
+
+.footer-section .footer-row-two ul li a, 
+.footer-row-three ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-section .footer-row-two ul li,
+.footer-row-three ul li {
+    list-style-type: none;
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+.footer-section .footer-row-four {
+    margin-top: 10px;
+}
+
+.footer-section .footer-row-four i {
+    margin-left: 5px;
+}
+
+.footer-section .footer-row-four a {
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+@media only screen and (min-width: 600px) {
+
+    .footer-section {
+        font-size: 10px;
+    }
+
+    .footer-section .footer-details {
+        width: 100%;
+    }
+
+    .footer-section .footer-details .footer-row-one, 
+    .footer-row-two, .footer-row-three, 
+    .footer-row-four {
+        width: 25%;
+    }
+
+    .footer-section .footer-details .footer-row-one, 
+    .footer-row-two, .footer-row-three {
+        font-size: 7px;
+    }
+
+    .footer-section .footer-details .footer-row-one {
+        padding: 10px;
+    }
+
+    .footer-section .footer-details .footer-row-three {
+        margin-left: -70px;
+    }
+
+    .footer-section .footer-details .footer-row-four {
+        margin-left: 100px;
+    }
+}
+
+@media only screen and (max-width: 680px) {
+    body {
+        width: 100%;
+    }
+
+    .section-one-form h1, p, input {
+        margin-left: 50px;
+    }
+
+    .section-one-form h1, p, input {
+        margin-left: 50px;
+    }
+
+    .section-one-form p {
+        width: 85%;
+    }
+
+    .section-two .section-two-first-row h1, a, .card {
+        margin-left: 50px;
+    }
+
+    .section-two .section-two-first-row h1, p {
+        width: 85%;
+    }
+
+    .section-three .section-three-first-row h1 {
+        margin-left: 50px;
+    }
+
+    .section-three .section-three-first-row .small {
+        margin-left: 50px;
+        width: 85%;
+    }
+
+    .section-three .section-three-second-row .form button {
+        margin-left: 50px;
+    }
+
+    .footer-section {
+        width: 100%;
+    }
+
+    .footer-margin {
+        margin-left: 50px;
+    }
+
+    .footer-section .footer-row-one {
+        margin-top: 20px;
+        margin-left: -40px;
+    }
+
+    .footer-section .footer-row-two {
+        padding-left: 0;
+        margin-top: 20px;
+        margin-left: -65px;
+    }
+
+    .footer-section .footer-row-two ul {
+        padding-left: 0;
+        margin-top: 20px;
+        margin-left: -85px;
+    }
+
+    .footer-section .footer-row-three {
+        padding-left: 0;
+        margin-top: 20px;
+        margin-left: -65px;
+    }
+
+    .footer-section .footer-row-four {
+        margin-bottom: 20px;
+    }
+
+    .section-three .section-three-second-row {
+        margin-top: -70px;
+    }
+
+    .section-three .section-three-second-row .form .form-input {
+        width: 70%;
+    }
+
+    .section-three .section-three-second-row .form-button {
+        width: 70%;
+    }
+    
+}
+
+
